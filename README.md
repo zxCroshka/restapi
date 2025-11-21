@@ -62,11 +62,17 @@ go run ./cmd/apiserver
 go build -o bin/apiserver ./cmd/apiserver
 ```
 
-Run the binary:
+### Build with a Makefile:
+```bash
+make
+```
+
+### Run the binary:
 
 ```bash
 ./bin/apiserver
 ```
+
 
 ## API
 
